@@ -114,54 +114,12 @@ const char mbedtls_aws_root_certificate[] =
 //client certificate here
 const char mbedtls_client_certificate[] =
 		"-----BEGIN CERTIFICATE-----\r\n"
-		"MIIDWjCCAkKgAwIBAgIVAIgU8PAYIRnAtNHcwyJGREXzGAQYMA0GCSqGSIb3DQEB\r\n"
-		"CwUAME0xSzBJBgNVBAsMQkFtYXpvbiBXZWIgU2VydmljZXMgTz1BbWF6b24uY29t\r\n"
-		"IEluYy4gTD1TZWF0dGxlIFNUPVdhc2hpbmd0b24gQz1VUzAeFw0yMTA2MTYwODUx\r\n"
-		"NDBaFw00OTEyMzEyMzU5NTlaMB4xHDAaBgNVBAMME0FXUyBJb1QgQ2VydGlmaWNh\r\n"
-		"dGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIqW7+gF6WJ76bPqF\r\n"
-		"g9kPf4mu2shyTcBlXA6FsMk8HzA1azd2jSRYyNSZwVFD+YY+tP+2q+vvRpl39XZc\r\n"
-		"IG1/Fdj5UmFbjTKgn2DIRlHsuhLr8cebKadTMq2RkNVtX1jv6evaNtB/QF8D30WL\r\n"
-		"hfR66HxFGG1JidHLD3X58d/kO4nHd+GsYgWJaNtzrxO1nfydhv4YjmjxFCuUdMrf\r\n"
-		"4i7hRgBib8SAlAw5fLfUbW7y0I3X1Zq+vzsHX+7Y56Rufqhbrg6OIBNKWU3TGOPx\r\n"
-		"JwWRfSlfOV2vbuvE0v4NaopNhdE1F+xxPiL4UzvmiFogBCFDhBvw2l/gjEcEtPg0\r\n"
-		"yAX3AgMBAAGjYDBeMB8GA1UdIwQYMBaAFNWxPylrCKFn9fE0m+5HpwpCor4jMB0G\r\n"
-		"A1UdDgQWBBSPz5CZ2lZeGaeVhI/nCXWCk0kz+TAMBgNVHRMBAf8EAjAAMA4GA1Ud\r\n"
-		"DwEB/wQEAwIHgDANBgkqhkiG9w0BAQsFAAOCAQEAKStJcOh75uyk1PuL9gBcfMKc\r\n"
-		"GMmR7Vah1r8R6E0JsZ+QfosPMbnRxbluvu8J5LxpdCzi67mBfHyCkjS+QlNtCYge\r\n"
-		"Im77OGHdtwqvVndJWw4UIQGYzeRdJvuyBhvOB6/AH2FkKOYdmi9JW5y0LNMswmvr\r\n"
-		"S8V/s0GQ82iO627M3P77Vq8c/4JhVz7eDY8LShp07+IzSD4dtwOe9akMG4k2k70S\r\n"
-		"K559Zeu8wzMBCNOMRtkLG3V3R37uuE43ojvr8rtd8ZF5JgHdii9FLrR33FfJJ1/Y\r\n"
-		"dhkIoSNde1XW7OS7eyArz84B+yCVae2MnIc+lneT9qxOhZGOpunvekRyAAfgUg==\r\n"
 		"-----END CERTIFICATE-----\r\n";
 
 //client private key here
 const char mbedtls_client_key[] =
 		"-----BEGIN RSA PRIVATE KEY-----\r\n"
-		"MIIEpAIBAAKCAQEAwyKlu/oBelie+mz6hYPZD3+JrtrIck3AZVwOhbDJPB8wNWs3\r\n"
-		"do0kWMjUmcFRQ/mGPrT/tqvr70aZd/V2XCBtfxXY+VJhW40yoJ9gyEZR7LoS6/HH\r\n"
-		"mymnUzKtkZDVbV9Y7+nr2jbQf0BfA99Fi4X0euh8RRhtSYnRyw91+fHf5DuJx3fh\r\n"
-		"rGIFiWjbc68TtZ38nYb+GI5o8RQrlHTK3+Iu4UYAYm/EgJQMOXy31G1u8tCN19Wa\r\n"
-		"vr87B1/u2Oekbn6oW64OjiATSllN0xjj8ScFkX0pXzldr27rxNL+DWqKTYXRNRfs\r\n"
-		"cT4i+FM75ohaIAQhQ4Qb8Npf4IxHBLT4NMgF9wIDAQABAoIBACeEZLvkrVfxioB8\r\n"
-		"gV94jASvd1qJw/4h8MyWD/rTCm26gzDOPbUscCfqw+M/Ww3BAobAcOi1eFpEmd/J\r\n"
-		"Peb6SjJqYj5biIvZ1F7i596nHwApzpspo5qwnMokgTHxesdjf8dWQAU5BJBAoP1P\r\n"
-		"we23ewNJAaGciMVTu8C7qNCtQwIdEXNkhkfpG7Ytj3v/gOQ/CUmjbVvOvMmfdlmW\r\n"
-		"SYH/dmdgvvxjqQTbHHlgdaXWJ2h030uzqZDuE6NjIM5rR+i9GxOn7v6ztSgdavug\r\n"
-		"5GPD8JrVhV2Q56flc6S4iqIEOItb7RnA6l/Bi6iBBvkgWreJU9ErIlxOpI4VF6n/\r\n"
-		"Gjg5K4ECgYEA+pg1BQ8OIoY/mCp3BNPLHnn+L79xod1WQFfGr5dlRBvfZemWNwtu\r\n"
-		"hNqdNmqyd9Njc9ilRXQtcuwTf39q/DjBOFh4a8lsGQ94VZX9ximMz1p06ZWa7bFB\r\n"
-		"9QNnWyVKuRVWJJp5WkfV3GD1soPpEpRKyZrKIzzJWk2rBPCEwQKroBkCgYEAx1gx\r\n"
-		"PPj/31KbMEadf+s87RgGR37+Xfw0berOc7J65z6M51+lciKC3E8JziNKrlC5Btnx\r\n"
-		"bW3pzfEyHxQffHZ0ERjovQcBDtVylBJJkDAQVCy6yCNOZ32Je0QKR4GHxc8D12R+\r\n"
-		"tBjSEQGYLzoNOm57PsRePk7R5HXWf/mEO68JWI8CgYEAuFhN8JnBqS4fDD547aks\r\n"
-		"LBBMKC3qVsuvTogD1lpGGZNzhNIQOhADzmHP8x8MiM+NwsPl2LD9WiRGt60xM7hA\r\n"
-		"k8WpWImFJu5VdIhxdlxMhKEjjk4K+b5DKg3F86v8SyliBG1Kxlo//e2p8RfO1mcW\r\n"
-		"mTZwavmlmfO20lxpHF9th8kCgYALNW1HVWTlxLpPI5lViP+bAT/RI1XgKP81sv86\r\n"
-		"yC1a9Uxs8hbWbRRYmOUfPyLC3G0a8oQ9t/FukAJWdwYyNGLgVzs27b7ke6H+q2yR\r\n"
-		"e/JfGUjDWiDddtSVJsVBMgpVWAeKQ+9P5xlgtWs+NJBr2ax6YgY+kKYCp5GRDpGd\r\n"
-		"3YC0BwKBgQCrkAg3++GO9aBzysjSqQG4rUjBS+YPPGw0OKw9TmeRkqImgySKSf7C\r\n"
-		"55P8MsRZMbFdKF1QAwqMaU77CJ1vs4Iow6s4dJ/NnFk8Ma5ZSS2zt1PZc01BXdDd\r\n"
-		"jjVMWlv1vpzRTBnUq8EVBV64Hyz9OM3H9mhXtNUkJWA6jNW3mNsgkw==\r\n"
+
 		"-----END RSA PRIVATE KEY-----\r\n";
 
 
